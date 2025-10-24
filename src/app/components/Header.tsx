@@ -8,17 +8,17 @@ export default function Header(props: {
   linkName: string;
 }) {
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center p-4">
       <div>
-        <h1>{props.h1}</h1>
-        <p>{props.p}</p>
+        <h1 className="text-3xl">{props.h1}</h1>
+        <p className="text-sm">{props.p}</p>
       </div>
       <nav className="flex gap-4">
         <Link href={props.linkRoute}>
           <Button>{props.linkName}</Button>
         </Link>
         <Link href="/new">
-          <Button>New Entry</Button>
+          <Button>+&nbsp;New Entry</Button>
         </Link>
       </nav>
     </header>
