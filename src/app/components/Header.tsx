@@ -37,9 +37,7 @@ export default function Header({ h1, p, linkRoute, linkName }: HeaderProps) {
               </Link>
               <Link href="/new">
                 <Button 
-                  className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20 
-                           flex items-center gap-2 px-6 py-2 rounded-full transition-all duration-300
-                           hover:scale-105"
+                  className="bg-primary hover:bg-primary/90 text-white shadow-lg"
                 >
                   <PlusCircle className="h-4 w-4" />
                   New Entry
