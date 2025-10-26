@@ -29,7 +29,7 @@ export default function Header({ h1, p, linkRoute, linkName }: HeaderProps) {
             <nav className="flex items-center gap-6">
               <Link href={linkRoute}>
                 <Button 
-                  variant="ghost" 
+                 variant="outline"
                   className="text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
                 >
                   {linkName}
