@@ -26,7 +26,7 @@ export default function JournalCard({
 
         {/* Content */}
         <div className="space-y-4">
-          <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-slate-800 dark:text-slate-300 leading-relaxed">
             {text}
           </p>
 
