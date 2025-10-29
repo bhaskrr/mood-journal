@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import InputForm from "../components/Form";
 
 const newEntryPageProps = {
   h1: "How are you feeling today?",
@@ -13,6 +14,10 @@ export default function NewEntry() {
   return (
     <section>
       <Header {...newEntryPageProps} />
+      <div className="max-w-1/2 flex justify-center m-auto mt-8">
+        <InputForm />
+      </div>
+      
     </section>
   );
 }
