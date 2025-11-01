@@ -7,7 +7,7 @@ export const Hero = () => {
     <div className="min-h-screen flex items-center justify-center">
       <section className="flex flex-col gap-4">
         <div>
-          <h1 className="text-sm md:text-lg lg:text-8xl text-center tracking-widest">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl text-center tracking-widest">
             Mira
           </h1>
           <p>
