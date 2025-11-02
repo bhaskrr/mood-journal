@@ -14,7 +14,7 @@ export default function NewEntry() {
   return (
     <section>
       <Header {...newEntryPageProps} />
-      <div className="max-w-1/2 flex justify-center m-auto mt-8">
+      <div className="max-w-1/2 flex justify-center m-auto mt-10">
         <InputForm />
       </div>
       
