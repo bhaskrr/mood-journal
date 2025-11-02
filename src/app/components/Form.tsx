@@ -42,6 +42,7 @@ export default function InputForm() {
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-2xl">Describe Your Day</FormLabel>
+              <FormLabel className="text-sm text-slate-600">What happened today? How are you feeling?</FormLabel>
               <FormControl>
                 <Textarea
                   placeholder="Today I felt... because..."
