@@ -47,7 +47,7 @@ export default function InputForm() {
                 <Textarea
                   placeholder="Today I felt... because..."
                   {...field}
-                  rows={7}
+                  rows={10}
                 />
               </FormControl>
               <FormMessage />
