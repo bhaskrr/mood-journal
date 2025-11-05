@@ -20,6 +20,11 @@ export const Hero = () => {
               Dashboard <ExternalLink />
             </Button>
           </Link>
+          <Link href="/journal">
+            <Button variant="ghost">
+              Journal <ExternalLink />
+            </Button>
+          </Link>
         </div>
       </section>
     </div>
