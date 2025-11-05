@@ -14,7 +14,7 @@ export const Hero = () => {
             <em>“Because your thoughts matter”</em>
           </p>
         </div>
-        <div className="text-center">
+        <div className="text-center flex gap-3">
           <Link href="/dashboard">
             <Button>
               Dashboard <ExternalLink />
