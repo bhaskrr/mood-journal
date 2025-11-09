@@ -15,6 +15,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
+import Link from "next/link";
 
 const formSchema = z.object({
   text: z.string().min(5, { error: "Text should be at least 5 characters." }),
@@ -54,7 +55,10 @@ export default function InputForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <div className="flex gap-2">
+          <Button type="submit">Submit</Button>
+          <Button variant="ghost">Cancel</Button>
+        </div>
       </form>
     </Form>
   );
