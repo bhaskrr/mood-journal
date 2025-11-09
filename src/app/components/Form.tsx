@@ -57,7 +57,9 @@ export default function InputForm() {
         />
         <div className="flex gap-2">
           <Button type="submit">Submit</Button>
-          <Button variant="ghost" className="border-1 border-black">Cancel</Button>
+          <Link href="\">
+            <Button variant="ghost" className="border-1 border-black">Cancel</Button>
+          </Link>
         </div>
       </form>
     </Form>
