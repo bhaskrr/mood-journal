@@ -21,7 +21,7 @@ export const Hero = () => {
             </Button>
           </Link>
           <Link href="/journal">
-            <Button variant="ghost" className="border-1 border-black">
+            <Button variant="ghost" className="border-2 border-slate-900">
               Journal <ExternalLink />
             </Button>
           </Link>
