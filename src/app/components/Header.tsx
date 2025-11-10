@@ -30,7 +30,7 @@ export default function Header({ h1, p, links }: HeaderProps) {
                       className={`${
                         link.route == "/new"
                           ? "bg-primary text-white shadow-lg"
-                          : "text-slate-700 "
+                          : "text-slate-700 border-black"
                       }`}
                     >
                       {link.route == "/new" ? (
